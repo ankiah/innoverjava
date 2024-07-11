@@ -1,0 +1,76 @@
+
+INN949@INN-LT-04-H2H5T MINGW64 ~
+$ cd "C:\innoverjavaclass"
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass
+$ pwd
+/c/innoverjavaclass
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass
+$ git init
+Initialized empty Git repository in C:/innoverjavaclass/.git/
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git add .
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Test.java
+        new file:   ~$Test.java
+
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ ^C
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Test.java
+        new file:   ~$Test.java
+
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git commit -m "my first commit"
+[master (root-commit) 3d5a634] my first commit
+ Committer: Ankaiah Meesala <INN949@innovdg.COM>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 8 insertions(+)
+ create mode 100644 Test.java
+ create mode 100644 ~$Test.java
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
+$ git log
+commit 3d5a6345e13abfa88fa64a172badc66ffbc510e0 (HEAD -> master)
+Author: Ankaiah Meesala <INN949@innovdg.COM>
+Date:   Thu Jul 11 11:01:25 2024 +0530
+
+    my first commit
+
+INN949@INN-LT-04-H2H5T MINGW64 /c/innoverjavaclass (master)
